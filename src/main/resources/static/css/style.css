@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+
+/*========= body背景色の変化CSS ===============*/
+
+.body_ext {
+  width: 100%;
+  height: 100vh;
+  background:linear-gradient(45deg,  #990000,#000000,#000099);/*グラデーションを定義*/
+  background-size: 200% 1000%;/*サイズを大きくひきのばす*/
+  animation: bggradient 20s ease infinite;
+}
+
+@keyframes bggradient{
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/*-----------------------------------------------*/
+
+a {
+ word-break: break-all;
+}
+
+.border-bottom{
+	
+    border-bottom-color: #444444;
+    width: auto;
+}
+
+.h-about{
+	font-size: 30px;
+	font-weight: 600;
+	text-indent: .2em;
+}
+
+.p-about{
+	text-indent: .2em;
+	font-size: 16px;
+	text-indent: .2em;
+}
+
+.bg-black{
+	background:#222222;
+	color: #eeeeee;
+}
+
+.bg-bl{
+	background:#222222;
+	color: #eeeeee;
+}
+
+.bg-grey{
+	background:#333333;
+	color: #eeeeee;
+}
+
+.back-transparent{
+	background:rgb(80,80,80,0.5);
+	color: #eeeeee;
+	
+}
+
+.text-white{
+	 color: #dfdfdf;
+}
+
+.text-org{
+	 color: #dfdfdf;
+}
+
+.bottom_space {
+  margin-bottom: 2em;
+}
+
+.p-space {
+  margin-bottom: 2em;
+}
+
+.ta_com{
+	min-width:300px;
+	margin:1px 0px 1px 0px;
+}
+
+.ta_com th{
+	padding: 0px;
+	background: #333333;
+}
+
+.ta_com td{
+	padding: 3px 1px 3px 1px;
+}
+
+.ta_scroll{
+	overflow: auto;
+    width: 100%;
+    height: 500px;
+    border-collapse:separate;
+}
+
+.ta_scroll th{
+	position: sticky;
+    top: 0;
+    left: 0;
+    z-index:1;
+    background: #333333;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    
+}
+
+
+.sp_textarea{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-size: 23px;
+	text-align: left; /* 文字を右詰めに */
+	overflow-wrap: break-word;
+	background:rgb(150,150,150,0.3);
+	border:none;
+	
+}
+
+.uploadTextarea{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+	text-align: left; /* 文字を右詰めに */
+	overflow-wrap: break-word;
+	background:rgb(150,150,150,0.3);
+	border:none;
+}
+
+.sp_btn{
+	width: 100%;
+	height: 100%;
+ 	margin: 0;
+ 	font-size: 20px;
+}
+.sel2 {
+	position: relative;
+	font-family: inherit;
+  	background-color: transparent;
+  	width: 100%;
+ 	padding: 0;
+ 	margin: 0;
+ 	font-size: 16px;
+ 	border-radius: 0;
+ 	border: none;
+ 	border-bottom: 1px solid rgba(250,250,250, 0);
+ 	color: #dfdfdf;
+}
+.sel2 option{
+	background:#333333;
+	color: #dfdfdf;
+}
+
+.dis_damage {
+	width: 100%;
+	height: 200%;
+	padding: 0;
+	margin: 0;
+	text-align: left; /* 文字を右詰めに */
+	overflow-wrap: break-word;
+	
+}
+
+.btn_primary{
+	background: #caa8f7;
+	color: #333333;
+	transition: .3s;
+	font-weight: 600;
+	text-indent: .2em;
+	
+}
+
+.btn_primary:hover{
+	background: #13c3ac;
+	color: #ffffff;
+}
+
+.btn_dl{
+	text-indent: .2em;
+	padding:1%;
+	height: 30px;
+	width:100%;
+	max-width:200px;
+}
+
+.btn_card{
+	padding:1% 0% 1% 0%;
+	max-width:24%;
+	min-width:15%;
+}
+
+.smart_block{
+	width: 100%; 
+	min-width: 320px; 
+	max-width: 400px;
+}
+
+ /* ディスプレイの詳細設定 */
+.display {
+    width: 100%;
+    text-align: left; /* 文字を右詰めに */
+    /* 見た目の詳細設定 */
+    background: #ffffff;
+    border-top: solid #dcdcdca4 5px;
+    border-bottom: solid #dcdcdca4 5px;
+    border-right: solid #b6b6b6 6px;
+    border-left: solid #b6b6b6 6px;
+    border-radius: 5px;
+}
